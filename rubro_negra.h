@@ -11,8 +11,8 @@ struct NO{
 
 int corNo(rubro_negra H);
 void trocaCor(rubro_negra H);
-rubro_negra rotacaoEsq(rubro_negra H);
-rubro_negra rotacaoDireita(rubro_negra H);
+rubro_negra rotacionaEsquerda(rubro_negra H);
+rubro_negra rotacionaDireita(rubro_negra H);
 
 rubro_negra inserirRubroNegra(rubro_negra H, Funcionario f);
 void imprimirRubroNegra(rubro_negra H);
