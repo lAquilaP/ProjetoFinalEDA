@@ -1,3 +1,6 @@
+#ifndef RUBRO_NEGRA_H
+#define RUBRO_NEGRA_H
+
 #include "csv.h"
 
 typedef struct NO *rubro_negra;
@@ -17,3 +20,5 @@ rubro_negra rotacionaDireita(rubro_negra H);
 rubro_negra inserirRubroNegra(rubro_negra H, Funcionario f);
 void imprimirRubroNegra(rubro_negra H);
 void liberarRubroNegra(rubro_negra H);
+
+#endif

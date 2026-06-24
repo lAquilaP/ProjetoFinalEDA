@@ -1,24 +1,8 @@
-#include "csv.h"
-#include "ordenacao.h"
+#include "menu.h"
 
 int main()
 {
-    Funcionario vetor[15000];
-
-    int qtd;
-
-    qtd = lerCSV(
-        "massaDados.csv",
-        vetor
-    );
-
-    ordenar(vetor, qtd);
-
-    gerarCSVOrdenado(
-        "massaDadosOrdenado.csv",
-        vetor,
-        qtd
-    );
+    executarMenu();
 
     return 0;
 }

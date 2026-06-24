@@ -67,11 +67,11 @@ rubro_negra inserirRubroNegra(rubro_negra H, Funcionario f) {
     }
  
     if (corNo(H->dir) == RED && corNo(H->esq) != RED) {
-        H = rotacaoEsq(H);
+        H = rotacionaEsquerda(H);
     }
  
     if (corNo(H->esq) == RED && corNo(H->esq->esq) == RED) {
-        H = rotacaoDireita(H);
+        H = rotacionaDireita(H);
     }
  
     if (corNo(H->esq) == RED && corNo(H->dir) == RED) {

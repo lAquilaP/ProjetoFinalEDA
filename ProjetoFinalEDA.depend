@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1782257443 source:c:\users\user\documents\github\projetofinaleda\avl.c
+	<stdio.h>
+	<stdlib.h>
+	"avl.h"
+
+1782257443 c:\users\user\documents\github\projetofinaleda\avl.h
+	"csv.h"
+
+1782257443 c:\users\user\documents\github\projetofinaleda\csv.h
+
+1782257443 source:c:\users\user\documents\github\projetofinaleda\csv.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"csv.h"
+
+1782259272 source:c:\users\user\documents\github\projetofinaleda\main.c
+	"menu.h"
+
+1782259274 c:\users\user\documents\github\projetofinaleda\menu.h
+
+1782257443 source:c:\users\user\documents\github\projetofinaleda\ordenacao.c
+	<stdio.h>
+	"ordenacao.h"
+
+1782257443 c:\users\user\documents\github\projetofinaleda\ordenacao.h
+	"csv.h"
+
+1782258897 source:c:\users\user\documents\github\projetofinaleda\rubro-negra.c
+	<stdio.h>
+	<stdlib.h>
+	"rubro_negra.h"
+
+1782258895 c:\users\user\documents\github\projetofinaleda\rubro_negra.h
+	"csv.h"
+
+1782259280 source:c:\users\user\documents\github\projetofinaleda\testes.c
+	"testes.h"
+	"avl.h"
+	"csv.h"
+	"ordenacao.h"
+	"rubro_negra.h"
+	<stdio.h>
+	<stdlib.h>
+
+1782259276 c:\users\user\documents\github\projetofinaleda\testes.h
+
+1782261062 source:c:\users\user\documents\github\projetofinaleda\menu.c
+	"menu.h"
+	"avl.h"
+	"csv.h"
+	"ordenacao.h"
+	"rubro_negra.h"
+	"testes.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
